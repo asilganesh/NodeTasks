@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello Ganesh Asil</h1>
+    <h1>Youre hitting this html page</h1>
+    <script>
+        debugger;
+        let a=[7,8,33,100]
+let b=[33,33]
+let sum=0
+let c=0
+let res=[]
+
+for(i=(Math.max(a.length,b.length)-1);i>=0;i--){
+    
+    if(a[i]==undefined){
+        a[i]=0
+    }
+    if(b[i]==undefined){
+        b[i]=0
+    }
+    
+    sum=((a[i]+b[i])+res)%10
+    res.push(sum)
+    c=parseInt(((a[i]+b[i])+sum)/10)
+    
+}
+console.log(res)
+    </script>
+</body>
+</html>
